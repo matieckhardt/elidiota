@@ -5,7 +5,8 @@ html {
     font-weight: 500;
     font-size: 15px;
 }
-body{
+
+body {
     font-family: "proxima-nova";
 }
 
@@ -217,7 +218,7 @@ footer {
     overflow: hidden;
 }
 
-.card-custom .products-img:hover{
+.card-custom .products-img:hover {
     -webkit-transform: scale(1.075);
     -moz-transform: scale(1.075);
     -ms-transform: scale(1.075);
@@ -228,7 +229,7 @@ footer {
     transition: 1s;
 }
 
-.card-custom .card-body{
+.card-custom .card-body {
     border-top: 3px solid red;
     padding: .75rem;
     background: #ccc;
@@ -236,16 +237,19 @@ footer {
     overflow: hidden;
     z-index: 1;
 }
+
 .fab {
     color: white;
 }
+
 .fab:hover {
     color: #ffaa00;
 }
-.products-img{
+
+.products-img {
     height: 250px;
     object-fit: contain;
-    padding: 10px 12px; 
+    padding: 10px 12px;
 }
 
 .custom-file-input~.custom-file-label::after {
@@ -260,10 +264,10 @@ footer {
 }
 
 #categorias a {
-  overflow: hidden; 
+    overflow: hidden;
 }
 
-#categorias h1::after{
+#categorias h1::after {
     position: absolute;
     bottom: 0px;
     left: 10px;
@@ -273,21 +277,21 @@ footer {
     background-color: #d00000;
 }
 
-#categorias h1{
+#categorias h1 {
     position: absolute;
     bottom: 0;
     padding: 10px;
     color: white;
 }
 
-#categorias .category-custom{
+#categorias .category-custom {
     transition: .75s ease-in-out !important;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
-    background-size: cover!important;
+    background-size: cover !important;
 }
 
-#categorias .category-custom:hover{
+#categorias .category-custom:hover {
     transition: .75s ease-in-out !important;
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
@@ -327,9 +331,10 @@ footer {
 }
 
 @media screen and (max-width:768px) {
-    html{
+    html {
         font-size: 70%;
     }
+
     main {
         margin-top: 40px;
     }
@@ -337,41 +342,48 @@ footer {
     .title {
         margin-bottom: 20px;
     }
-    .my-5{
+
+    .my-5 {
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
+
     .img-side {
         margin: 30px 0;
         min-height: 230px;
-        max-height: 380px!important;
+        max-height: 380px !important;
     }
-    .orden{
+
+    .orden {
         order: 1;
     }
-    #plx-about{
+
+    #plx-about {
         height: 300px;
     }
+
     #main-categories {
         margin-top: 10vh !important;
     }
+
     #carousel-landing img {
         height: 30vh;
         width: 100%;
         object-fit: scale-down;
         margin-top: 10px;
     }
+
     #main-categories section .w-50 {
         width: 100% !important;
     }
 
     .category-custom {
         /* height: 21.5vh !important; */
-        height: 31vh!important;
-        background-size: cover!important;
-        background-position: center!important;
+        height: 31vh !important;
+        background-size: cover !important;
+        background-position: center !important;
     }
-    
+
     .service-icons {
         margin-bottom: 20px;
     }
@@ -388,10 +400,11 @@ footer {
     footer .img-footer {
         display: none;
     }
-    #categorias a{
+
+    #categorias a {
         flex: 50%;
         max-width: 100%;
-        height: 182px!important;
+        height: 182px !important;
         background-color: #000;
     }
 
@@ -436,4 +449,20 @@ footer {
     #social-nav {
         display: none;
     }
+}
+
+#slide1 {
+    background-image: url(/images/Carousel/car1-m.jpg)
+}
+
+#slide2 {
+    background-image: url(/images/Carousel/car2-m.jpg)
+}
+
+#slide3 {
+    background-image: url(/images/Carousel/car3-m.jpg)
+}
+
+#slide4 {
+    background-image: url(/images/Carousel/car4-m.jpg)
 }

@@ -2776,6 +2776,22 @@ margin-left:0!important;
         bottom: 0px;
     }
 
+    #slide1 {
+        background-image: url(/images/Carousel/car1-m.jpg)
+    }
+    
+    #slide2 {
+        background-image: url(/images/Carousel/car2-m.jpg)
+    }
+    
+    #slide3 {
+        background-image: url(/images/Carousel/car3-m.jpg)
+    }
+    
+    #slide4 {
+        background-image: url(/images/Carousel/car4-m.jpg)
+    }
+
     @media screen and (max-width: 1220px) {
         .carousel-indicators {
 	    visibility:hidden;
